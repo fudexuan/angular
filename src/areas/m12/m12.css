@@ -1,0 +1,17 @@
+.table1{
+    background-color: white;
+}
+.table1 thead tr{
+    background-color: #E6E6E6;
+    color:#000;
+    font: normal 14px "微软雅黑";
+    border-radius: 10px;
+}
+.table1 tbody tr.odd{
+    background-color: #F5F5F5;
+}
+.table1 tbody tr.even{
+}
+.table1 tbody tr:hover{
+    background-color: #BFEAFB;
+}

@@ -1,0 +1,226 @@
+<!DOCTYPE>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Kstar</title>
+    <link rel="stylesheet" href="./css/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="../node_modules/font-awesome/css/font-awesome.css"/>
+    <link type="text/css" rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="./css/app.css"/>
+    <link rel="stylesheet" href="areas/m12/m12.css"/>
+    <link rel="stylesheet" href="areas/m11/m11.css"/>
+    <link rel="stylesheet" href="./areas/m22/m22.css"/>
+    <link rel="stylesheet" href="./js/laydate/need/laydate.css"/>
+    <script type="text/javascript" src="js/jquery-1.12.4.js"></script>
+    <script type="text/javascript" src="js/menu.js"></script>
+    <script type="text/javascript" src="js/laydate/laydate.js"></script>
+    <script type="text/javascript" src="css/bootstrap/dist/js/bootstrap.js"></script>
+
+</head>
+
+<body ng-app="myApp">
+
+
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container-fluid"
+         style="background-color: #EFEFEF;padding-bottom: 10px; border-bottom: 1px solid #D8D8D8;">
+        <div class="navbar-header">
+            <!--<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">-->
+            <!--<span class="sr-only">Toggle navigation</span>-->
+            <!--<span class="icon-bar"></span>-->
+            <!--<span class="icon-bar"></span>-->
+            <!--<span class="icon-bar"></span>-->
+            <!--</button>-->
+            <a class="navbar-brand" href="#"></a><span>Aplication Workdest</span>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <form class="navbar-form navbar-right">
+                <!--<input type="text" class="form-control" placeholder="Search...">-->
+                <select class="form-control">
+                    <option value="1">Application Workdesk</option>
+                    <option value="1">Application Workdesk</option>
+                    <option value="1">Application Workdesk</option>
+                </select>
+            </form>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">Administrator System</a></li>
+            </ul>
+
+        </div>
+    </div>
+</nav>
+
+
+<div id="content">
+    <div class="left_menu">
+        <div class="left_menu-top">
+            流程中心门户
+        </div>
+        <ul id="nav_dot">
+            <li>
+                <h4 class="M1"><span></span>流程中心</h4>
+
+                <div class="list-item none">
+                     <a href='#/m11'><span class="fa fa-search"> </span>  发起流程</a>
+                    <a href='#/m12'><span class="fa fa-angle-down"> </span>  我的草稿</a>
+                    <a href='#/m13'><span class="fa fa-angle-up"> </span>  我的待办</a>
+                    <a href=''><span class="fa fa-adjust"> </span>  我的申请</a>
+                    <a href=''><span class="fa fa-file-zip-o"> </span>  我参与的</a>
+                    <a href=''><span class="fa fa-warning"> </span>  我的代理</a>
+                    <a href=''><span class="fa fa-edit"> </span>  我的待阅</a>
+                    <a href=''><span class="fa fa-sort-desc"> </span>  我的已阅</a>
+                    <a href=''><span class="fa fa-long-arrow-down"> </span>  我的抄送</a>
+                    <a href=''><span class="fa fa-facebook"> </span>  流程督办</a>
+                    <a href=''><span class="fa fa-bell"> </span>  代我申请</a>
+                    <a href=''><span class="fa fa-xing"> </span>  流程监控</a>
+                    <a href=''><span class="fa fa-key"> </span>  通用报表</a>
+                </div>
+            </li>
+            <li>
+                <h4 class="M2"><span></span>报表中心</h4>
+
+                <div class="list-item none">
+                    <a href='#/m21'>我关注的</a>
+                    <a href='#/m22'>全部报表</a>
+                </div>
+            </li>
+            <li>
+                <h4 class="M3"><span></span>运维中心</h4>
+
+                <div class="list-item none">
+                    <a href=''>流程配置管理</a>
+                    <a href=''>移动服务配置</a>
+                    <a href=''>控件模板配置</a>
+                    <a href=''>数据字典管理</a>
+                    <a href=''>邮件模板管理</a>
+                    <a href=''>操作日志</a>
+                    <a href=''>流程权限配置</a>
+                    <a href=''>功能权限配置</a>
+                    <a href=''>路程主题配置</a>
+                    <a href=''>离职管理</a>
+                    <a href=''>站点配置</a>
+                    <a href=''>用户管理</a>
+                    <a href=''>组织管理</a>
+                    <a href=''>职位管理</a>
+                    <a href=''>系统配置</a>
+                    <a href=''>代理管理</a>
+                    <a href=''>代理属性定义</a>
+                    <a href=''>定时任务配置</a>
+                    <a href=''>自定义角色管理</a>
+                </div>
+            </li>
+            <li>
+                <h4 class="M4"><span></span>业务中心</h4>
+
+                <div class="list-item none">
+                    <a href=''>修改密码</a>
+                    <a href=''>SIM卡台账列表</a>
+
+                </div>
+            </li>
+            <li>
+                <h4 class="M5"><span></span>数据中心</h4>
+
+                <div class="list-item none">
+                    <a href=''>调研问卷1</a>
+                    <a href=''>调研问卷2</a>
+                    <a href=''>调研问卷3</a>
+                </div>
+            </li>
+            <li>
+                <h4 class="M6"><span></span>数据统计</h4>
+
+                <div class="list-item none">
+                    <a href=''>有方科技客户信息表</a>
+                    <a href=''>责任人关系表</a>
+                    <a href=''>硬件测试环节配置</a>
+                    <a href=''>硬件测试类型</a>
+                    <a href=''>模块标贴信息表</a>
+                    <a href=''>模块型号信息表</a>
+                    <a href=''>有方科技加工厂商信息表</a>
+                    <a href=''>基思瑞项目信息表</a>
+                    <a href=''>模块型号信息表</a>
+                    <a href=''>标准化文件信息表</a>
+                    <a href=''>项目测试资源</a>
+                    <a href=''>模块工具软件信息表</a>
+                    <a href=''>基思瑞样机管理表</a>
+                    <a href=''>人力计划表</a>
+                    <a href=''>SIM重置记录</a>
+                    <a href=''>SIM卡管理表</a>
+                    <a href=''>软件测试信息表</a>
+                    <a href=''>周版本计划表</a>
+                </div>
+            </li>
+
+        </ul>
+    </div>
+    <div class="m-right">
+        <div class="row">
+            <div class="home">
+                <div class="fl home_page">首页</div>
+
+                <div class="fr">
+                    　<span class="fa fa-search" id="up"></span>
+                    　<span class="fa fa-refresh"></span>
+                </div>
+            </div>
+
+        </div>
+        <div class="row pickerDate">
+            <lable>
+                &nbsp; &nbsp; &nbsp;开始：<input id="hello" class="laydate-icon"/>　
+            </lable>
+            　
+            <lable>至：
+                <input id="hello1" class="laydate-icon"/>
+            </lable>
+            <!--<span class="laydate-icon" onclick="laydate({elem: '#hello1'});"></span>-->
+
+            <label> 实例流程编号：<input type="text"/></label>
+
+            <lable> 流程名称： <input type="text"/>
+                <span class="fa fa-search pck_search"></span>
+            </lable>
+        </div>
+
+        <div class="main" ui-view>
+
+
+            <!-- 视图-->
+
+
+        </div>
+    </div>
+</div>
+
+<script>navList(12);</script>
+<script src='../node_modules/angular/angular.js'></script>
+<!--<script src='../node_modules/angular-route/angular-route.js'></script>-->
+<script src='../node_modules/angular-ui-router/release/angular-ui-router.min.js'></script>
+<!--<script src='./app.js'></script>-->
+<script src='./apps.js'></script>
+<script>
+    $('#up').bind('click', function () {
+        $(".pickerDate").toggle();
+
+    })
+    laydate({
+        elem: '#hello',
+        event: 'focus'
+    });
+    laydate({
+        elem: '#hello1',
+        event: 'focus'
+    });
+
+    $('#myTab a').click(function (e) {
+        e.preventDefault()
+        $(this).tab('show')
+    })
+
+
+    $('.carousel').carousel();
+
+</script>
+</body>
+</html>
